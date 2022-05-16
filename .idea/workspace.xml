@@ -2,51 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b20d36f-9256-4bf6-8da7-d0489870956d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/$PROJECT_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seckill.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/noarsark/seckil/MainApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/noarsark/seckil/Result/CodeMsg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/noarsark/seckil/Result/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/noarsark/seckil/controller/SampleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/noarsark/seckil/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/noarsark/seckil/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/noarsark/seckil/redis/BasePrefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/noarsark/seckil/redis/KeyPrefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/noarsark/seckil/redis/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/noarsark/seckil/redis/RedisPoolFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/noarsark/seckil/redis/RedisService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/noarsark/seckil/redis/UserKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/noarsark/seckil/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/noarsark/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/seckill.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/noarsark/seckil/MainApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/noarsark/seckil/Result/CodeMsg.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/noarsark/seckil/Result/Result.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/noarsark/seckil/controller/SampleController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/noarsark/seckil/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/noarsark/seckil/domain/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/noarsark/seckil/redis/BasePrefix.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/noarsark/seckil/redis/KeyPrefix.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/noarsark/seckil/redis/RedisConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/noarsark/seckil/redis/RedisPoolFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/noarsark/seckil/redis/RedisService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/noarsark/seckil/redis/UserKey.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/noarsark/seckil/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/noarsark/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +96,7 @@
       <updated>1652494529541</updated>
       <workItem from="1652494531103" duration="18942000" />
       <workItem from="1652581279157" duration="14833000" />
-      <workItem from="1652703273996" duration="1017000" />
+      <workItem from="1652703273996" duration="1546000" />
     </task>
     <servers />
   </component>
