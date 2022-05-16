@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2b20d36f-9256-4bf6-8da7-d0489870956d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/$PROJECT_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seckill.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/noarsark/seckil/MainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/noarsark/seckil/Result/CodeMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/noarsark/seckil/Result/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/noarsark/seckil/controller/SampleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/noarsark/seckil/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/noarsark/seckil/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/noarsark/seckil/redis/BasePrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/noarsark/seckil/redis/KeyPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/noarsark/seckil/redis/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/noarsark/seckil/redis/RedisPoolFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/noarsark/seckil/redis/RedisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/noarsark/seckil/redis/UserKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/noarsark/seckil/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/noarsark/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/seckill.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/noarsark/seckil/MainApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/noarsark/seckil/Result/CodeMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/noarsark/seckil/Result/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/noarsark/seckil/controller/SampleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/noarsark/seckil/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/noarsark/seckil/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/noarsark/seckil/redis/BasePrefix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/noarsark/seckil/redis/KeyPrefix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/noarsark/seckil/redis/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/noarsark/seckil/redis/RedisPoolFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/noarsark/seckil/redis/RedisService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/noarsark/seckil/redis/UserKey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/noarsark/seckil/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/noarsark/AppTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\CSLearning\java\maven_repo" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../java/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\CSLearning\java\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="298V7Cnile3pQrp7TJlQZIA7eir" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/noarsark/seckil/Result" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CSLearning\ideaProjects\seckill\src\main\java\com\noarsark\seckil\Result" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="seckill" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.noarsark.seckil.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.noarsark.seckil.MainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.MainApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b20d36f-9256-4bf6-8da7-d0489870956d" name="Default Changelist" comment="" />
+      <created>1652494529541</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652494529541</updated>
+      <workItem from="1652494531103" duration="18942000" />
+      <workItem from="1652581279157" duration="14833000" />
+      <workItem from="1652703273996" duration="1017000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1652604023190">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1652604023190" />
+    <state width="1493" height="467" key="GridCell.Tab.0.bottom" timestamp="1652704363160">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="467" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1652704363160" />
+    <state width="1493" height="467" key="GridCell.Tab.0.center" timestamp="1652704363160">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="467" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1652704363160" />
+    <state width="1493" height="467" key="GridCell.Tab.0.left" timestamp="1652704363159">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="467" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1652704363159" />
+    <state width="1493" height="467" key="GridCell.Tab.0.right" timestamp="1652704363160">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="467" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1652704363160" />
+    <state width="1493" height="467" key="GridCell.Tab.1.bottom" timestamp="1652704363160">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="467" key="GridCell.Tab.1.bottom/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1652704363160" />
+    <state width="1493" height="467" key="GridCell.Tab.1.center" timestamp="1652704363160">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="467" key="GridCell.Tab.1.center/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1652704363160" />
+    <state width="1493" height="467" key="GridCell.Tab.1.left" timestamp="1652704363160">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="467" key="GridCell.Tab.1.left/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1652704363160" />
+    <state width="1493" height="467" key="GridCell.Tab.1.right" timestamp="1652704363160">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="467" key="GridCell.Tab.1.right/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1652704363160" />
+    <state x="270" y="60" key="SettingsEditor" timestamp="1652597331147">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="270" y="60" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1652597331147" />
+    <state width="498" height="448" key="SwitcherDM" timestamp="1652528924176">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="498" height="448" key="SwitcherDM/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1652528924176" />
+    <state x="449" y="242" key="com.intellij.ide.util.TipDialog" timestamp="1652703290859">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="449" y="242" key="com.intellij.ide.util.TipDialog/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1652703290859" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1652496247680">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1652496247680" />
+  </component>
+</project>
