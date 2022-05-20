@@ -1,6 +1,7 @@
 package com.noarsark.seckil.service;
 
 import com.noarsark.seckil.Result.CodeMsg;
+import com.noarsark.seckil.controller.exception.GlobalException;
 import com.noarsark.seckil.dao.MiaoshaUserDao;
 import com.noarsark.seckil.domain.MiaoshaUser;
 import com.noarsark.seckil.util.MD5Util;
@@ -19,26 +20,25 @@ public class MiaoshaUserService {
 
     }
 
-    public CodeMsg login(LoginVo loginVo) {
+    public Boolean login(LoginVo loginVo) {
         if (loginVo == null) {
-            return CodeMsg.SERVER_ERROR;
+            throw new GlobalException(CodeMsg.SERVER_ERROR);
         }
         String mobile = loginVo.getMobile();
         String formPass= loginVo.getPassword();
         // 判断手机号是否存在
         MiaoshaUser user = getById(Long.parseLong(mobile));
         if (user == null) {
-            return CodeMsg.MOBILE_NOT_EXIST;
+            throw new GlobalException(CodeMsg.MOBILE_NOT_EXIST);
         }
         // 验证密码
         String dbPass = user.getPassword();
         String saltDb = user.getSalt();
         String calcPass = MD5Util.formPassToDBPass(formPass, saltDb);
         if (!calcPass.equals(dbPass)) {
-            return CodeMsg.PASSWORD_ERROR;
+            throw new GlobalException(CodeMsg.PASSWORD_ERROR);
         }
-
-        return CodeMsg.SUCCESS;
+        return true;
 
 
     }
