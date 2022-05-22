@@ -45,8 +45,7 @@ public class LoginController {
         }*/
 
         // 登录
-        userService.login(loginVo);
-
+        userService.login(response, loginVo);
         return Result.success(true);
     }
 }
