@@ -13,6 +13,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
 
+/**
+ * @author Noahs_Ark
+ * @apiNote
+ */
 @Controller
 @RequestMapping("/login")
 public class LoginController {
@@ -29,7 +33,7 @@ public class LoginController {
 
     @RequestMapping("/do_login")
     @ResponseBody
-    public Result<Boolean> doLogin(HttpServletResponse response , @Valid LoginVo loginVo) {
+    public Result<Boolean> doLogin(HttpServletResponse response, @Valid LoginVo loginVo) {
         logger.info(loginVo.toString());
         /*// 参数校验  按道理应该放service中, 用JSR303替代了
         String passInput = loginVo.getPassword();
@@ -47,5 +51,6 @@ public class LoginController {
         // 登录
         userService.login(response, loginVo);
         return Result.success(true);
+
     }
 }

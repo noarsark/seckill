@@ -39,7 +39,7 @@ public class MiaoshaUserService {
         //延长有效期
         if(user != null) {
             addCookie(response, token, user);
-            System.out.println(user.getNickname());
+            /// System.out.println(user.getNickname());
         }
 
         return user;
