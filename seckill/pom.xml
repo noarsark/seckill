@@ -97,6 +97,7 @@
             </plugin>
         </plugins>
         <finalName>seckill-springboot</finalName>
+        <directory>/Users/noarsark/Projects/Intelljidea/seckill/seckill/</directory>
     </build>
 
 </project>

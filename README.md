@@ -4,7 +4,7 @@
 
 本项目实现了电商项目的秒杀功能，主要内容包含了用户登录、浏览商品、秒杀抢购、创建订单等功能，着重解决秒杀系统的并发问题。项目利用JMeter工具进行压力测试，着重对比采用缓存、消息队列等手段对于提高系统响应速度并发能力的效果。
 
-项目参考博客地址：[https://wangguoping.blog.csdn.net/article/details/89923044](https://wangguoping.blog.csdn.net/article/details/89923044)
+项目参考博客地址：[https://wangnoarsark.blog.csdn.net/article/details/89923044](https://wangnoarsark.blog.csdn.net/article/details/89923044)
 
 
 
@@ -57,8 +57,8 @@ CREATE TABLE miaosha_user (
 2. 将Token写到Cookie中，设置Path为顶级域名之下。
 
 #### 「注册登录功能实现」
-1. 封装服务端响应对象 `guo.ping.seckill.result.ServerResponse` 以及状态码消息对象 `guo.ping.seckill.result.CodeMsg`;
-2. 利用JSR-303注解校验参数，并自定义手机号校验注解 `guo.ping.seckill.validator.IsMobile` 以及验证器 `guo.ping.seckill.validator.IsMobileValidator`;
+1. 封装服务端响应对象 `com.noarsark.seckill.result.ServerResponse` 以及状态码消息对象 `com.noarsark.seckill.result.CodeMsg`;
+2. 利用JSR-303注解校验参数，并自定义手机号校验注解 `com.noarsark.seckill.validator.IsMobile` 以及验证器 `com.noarsark.seckill.validator.IsMobileValidator`;
 3. 实现用户登录，批量注册用户逻辑;
 4. 自定义方法参数解析器用于获取请求中包含的Token值，并查询Redis封装成User;
 5. 具体代码参考 [<u>Commits on May 3, 2019</u> 和 <u>Commits on May 5, 2019</u>](https://github.com/MrSorrow/seckill/commits/master)
@@ -278,7 +278,7 @@ spring.resources.static-locations=classpath:/META-INF/resources/,classpath:/reso
             </plugin>
         </plugins>
         <finalName>seckill-springboot</finalName>
-        <directory>/Users/guoping/Projects/Intelljidea/seckill/seckill/</directory>
+        <directory>/Users/noarsark/Projects/Intelljidea/seckill/seckill/</directory>
     </build>
     ```
 2. 编写Dockerfile构建镜像，参考[官方文档](https://spring.io/guides/topicals/spring-boot-docker);
@@ -296,17 +296,17 @@ spring.resources.static-locations=classpath:/META-INF/resources/,classpath:/reso
     ```
 3. 构建镜像创建实例并运行服务;
     ```bash
-    docker build -t guoping/seckill:1.0 .
-    docker run -d -p 80:8080 --name e3-mall-seckill guoping/seckill:1.0
+    docker build -t noarsark/seckill:1.0 .
+    docker run -d -p 80:8080 --name e3-mall-seckill noarsark/seckill:1.0
     ```
 4. 测试服务。
 
 ### II. 水平复制
 1. 启动3个实例，分别端口映射到宿主机的8081、8082、8083，打开宿主机防火墙;
     ```bash
-    docker run -d -p 8081:8080 --name e3-mall-seckill-1 -e TZ=Asia/Shanghai guoping/seckill:1.0
-    docker run -d -p 8082:8080 --name e3-mall-seckill-2 -e TZ=Asia/Shanghai guoping/seckill:1.0
-    docker run -d -p 8083:8080 --name e3-mall-seckill-3 -e TZ=Asia/Shanghai guoping/seckill:1.0
+    docker run -d -p 8081:8080 --name e3-mall-seckill-1 -e TZ=Asia/Shanghai noarsark/seckill:1.0
+    docker run -d -p 8082:8080 --name e3-mall-seckill-2 -e TZ=Asia/Shanghai noarsark/seckill:1.0
+    docker run -d -p 8083:8080 --name e3-mall-seckill-3 -e TZ=Asia/Shanghai noarsark/seckill:1.0
     ```
 2. 利用Nginx进行反向代理，宿主机上传好 `nginx.conf` 配置文件，其中配置好多节点负载均衡;
     ```bash
